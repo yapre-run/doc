@@ -1,0 +1,39 @@
+name: build_docs
+on:
+  push:
+    branches:
+      - main 
+
+  pull_request:
+
+  schedule:
+      - cron: "0 5 * * 1"  # runs at 05:00 UTC on Mondays
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      configuration: Release
+    strategy:
+      fail-fast: true
+      max-parallel: 4
+    steps:
+      - name: Install Doxygen
+        run: sudo apt-get install doxygen -y
+      - name: Checkout repository and submodules
+        uses: actions/checkout@v2
+      - name: Build
+        run: |
+          cd ./src
+          doxygen
+          cd ..
+      - name: Copy files to docs
+        run: |
+          rm -f ./docs/*.*
+          cp ./src/html/* ./docs
+      - name: Commit and push
+        uses: EndBug/add-and-commit@v7
+        with:
+          message: 'Github Action Auto Build'
+          add: '*.* --force'
+          cwd: './docs/'
