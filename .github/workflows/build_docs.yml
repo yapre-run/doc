@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Build
         run: |
-          cd ./src
+          cd ./build/yapre/src
           doxygen
           cd ..
       - name: Copy files to docs
