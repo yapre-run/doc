@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Install Doxygen
         run: sudo apt-get install doxygen -y
+        with:
+          submodules: recursive
       - name: Checkout repository and submodules
         uses: actions/checkout@v2
       - name: Build
