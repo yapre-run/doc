@@ -3,4 +3,4 @@
 	url = git@github.com:wo1fsea/yapre.git
 [submodule "build/doxygen-awesome-css"]
 	path = build/doxygen-awesome-css
-	url = ../../jothepro/doxygen-awesome-css.git
+	url = git@github.com:jothepro/doxygen-awesome-css.git
