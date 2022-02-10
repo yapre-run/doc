@@ -31,8 +31,11 @@ jobs:
           cd ../
       - name: Copy files to docs
         run: |
-          rm -f ./docs/*.*
-          cp -r ./build/html/* ./docs
+          rm -rf ./docs
+          mkdir -p ./docs
+          cp -r ./build/doxygen_output/html/* ./docs
+          cp -r ./build/yapre/docs ./docs/docs
+          cp -r ./build/yapre/vis/png ./docs/vis/png
       - name: Commit and push
         uses: EndBug/add-and-commit@v7
         with:
