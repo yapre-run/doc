@@ -1,7 +1,6 @@
 var yrenderer_8cpp =
 [
     [ "DrawData", "yrenderer_8cpp.html#aef7385e367c38e99a02cef83dd0061a7", null ],
-    [ "_UpdateRenderSize", "yrenderer_8cpp.html#a5758507b0a2563f542aad66a3c843a78", null ],
     [ "CalculateTextRenderSize", "yrenderer_8cpp.html#a5fbde2c7cc67f9c834a7c8206a633048", null ],
     [ "ConvertToViewport", "yrenderer_8cpp.html#a89890ef45ac82dcadf19b988357f4400", null ],
     [ "Deinit", "yrenderer_8cpp.html#a502cf71a718edba754b8b4ec1d166f0e", null ],

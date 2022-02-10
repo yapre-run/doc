@@ -5,5 +5,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="yapre::lua::StateCall\< R \>",height=0.2,width=0.4,color="black",URL="$structyapre_1_1lua_1_1_state_call.html",tooltip=" "];
+  Node0 [label="yapre::lua::StateVar\l\< std::unordered_map\l\< std::string, T \> \>",height=0.2,width=0.4,color="black",URL="$structyapre_1_1lua_1_1_state_var_3_01std_1_1unordered__map_3_01std_1_1string_00_01_t_01_4_01_4.html",tooltip=" "];
 }

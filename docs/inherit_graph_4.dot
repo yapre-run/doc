@@ -5,5 +5,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="yapre::lua::_LuaClassMem\lFuncHelper\< R(*)(Targs...)\>",height=0.2,width=0.4,color="black",URL="$structyapre_1_1lua_1_1___lua_class_mem_func_helper_3_01_r_07_5_08_07_targs_8_8_8_08_4.html",tooltip=" "];
+  Node0 [label="yapre::lua::LuaClassCtor\lFuncHelper\< T, Targs \>",height=0.2,width=0.4,color="black",URL="$structyapre_1_1lua_1_1_lua_class_ctor_func_helper.html",tooltip=" "];
 }

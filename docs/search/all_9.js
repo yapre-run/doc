@@ -1,9 +1,27 @@
 var searchData=
 [
-  ['id_88',['ID',['../classyapre_1_1_shader.html#aba2eec1c42a0e0c687a2f1f0a36c970c',1,'yapre::Shader']]],
-  ['init_89',['Init',['../namespaceyapre_1_1font.html#a5b6388d0dc88debdf4057af08a88553a',1,'yapre::font::Init()'],['../namespaceyapre_1_1audio.html#a53b235a365a93ec7c701c15f847ff8d4',1,'yapre::audio::Init()'],['../namespaceyapre_1_1input.html#a136cc7797af06f64a266c704123960c9',1,'yapre::input::Init()'],['../namespaceyapre_1_1lua.html#a113bbe4dc47d997a38282e52c6e01a3f',1,'yapre::lua::Init()'],['../namespaceyapre_1_1renderer.html#afd832ffce54c3a8c796feccdce2db769',1,'yapre::renderer::Init()'],['../namespaceyapre_1_1repl.html#ae097b303d87b2eb994142a5e287f0951',1,'yapre::repl::Init()'],['../namespaceyapre_1_1core.html#a49c275c857d68b1ac3a5a89bddd49b6d',1,'yapre::core::Init()'],['../namespaceyapre_1_1scheduler.html#a9c44dc8deb521fcda931530e3962ec34',1,'yapre::scheduler::Init()'],['../namespaceyapre_1_1window.html#afa141a891a1ec91e0f40548cf9df8b56',1,'yapre::window::Init()']]],
-  ['initfptr_90',['InitFPtr',['../namespaceyapre.html#aaf03ddd3a9d76e464aec8e5a1b1cc73f',1,'yapre']]],
-  ['initsystems_91',['InitSystems',['../namespaceyapre.html#a5e737932dec7fc3b8b321bd5e96950ef',1,'yapre']]],
-  ['input_92',['input',['../namespaceyapre_1_1repl.html#a61763d4dbdc5bec2775114ae2c2b2414',1,'yapre::repl']]],
-  ['input_5fmutex_93',['input_mutex',['../namespaceyapre_1_1repl.html#a4ef821942442733f380d92751fb0f825',1,'yapre::repl']]]
+  ['kdefaultluaentryfilepath_76',['kDefaultLuaEntryFilePath',['../namespaceyapre_1_1lua.html#a87d7c8dcf0f40d21c4ed642bf851f9f6',1,'yapre::lua']]],
+  ['kdeinitfptrs_77',['kDeinitFPtrs',['../namespaceyapre.html#a9cac3a10fadb6e19e9a427d680e57e1e',1,'yapre']]],
+  ['keep_5faspect_78',['keep_aspect',['../namespaceyapre_1_1renderer.html#a97730e384bf4919b5d0de6227d21c6f1',1,'yapre::renderer']]],
+  ['keyboardcallbackfunc_79',['KeyboardCallBackFunc',['../namespaceyapre_1_1input.html#a98b95dc3276b193c52253f741b96adcb',1,'yapre::input']]],
+  ['keyboardcallbackfuncmap_80',['KeyboardCallBackFuncMap',['../namespaceyapre_1_1input.html#a488c1442871c8955a5f52afa036f7de9',1,'yapre::input']]],
+  ['keystate_81',['KeyState',['../namespaceyapre_1_1input.html#ae512b81cb51a658c41e3c590a4a5b812',1,'yapre::input']]],
+  ['kfontsize_82',['kFontSize',['../namespaceyapre_1_1font.html#ae4f72a4bebd3605b02358eb3cdc0aa73',1,'yapre::font']]],
+  ['kfullscreen_83',['kFullScreen',['../namespaceyapre_1_1window.html#ae85ba5acc10da5d5d4eeefdd9ffdf68c',1,'yapre::window']]],
+  ['kinitfptrs_84',['kInitFPtrs',['../namespaceyapre.html#ac0b5936f15a45d542acfb30fe35334d0',1,'yapre']]],
+  ['kkeystatepressed_85',['kKeyStatePressed',['../namespaceyapre_1_1input.html#ae512b81cb51a658c41e3c590a4a5b812a15410a046c7a6b2671c28d4a0b9cfd30',1,'yapre::input']]],
+  ['kkeystatereleased_86',['kKeyStateReleased',['../namespaceyapre_1_1input.html#ae512b81cb51a658c41e3c590a4a5b812a52e230d8579782c5fd3ac279b6b73965',1,'yapre::input']]],
+  ['kmaxz_87',['kMaxZ',['../namespaceyapre_1_1renderer.html#a31dcb8a664f4ae64ac7cbf39946d4a72',1,'yapre::renderer']]],
+  ['kmousebuttonleft_88',['kMouseButtonLeft',['../namespaceyapre_1_1input.html#a01a8d296130060b5f3435c72e15dfae4a085910e0b748048c2b77d965d75702ff',1,'yapre::input']]],
+  ['kmousebuttonmiddle_89',['kMouseButtonMiddle',['../namespaceyapre_1_1input.html#a01a8d296130060b5f3435c72e15dfae4ad846814948d587e715e37c9d9b53ed8d',1,'yapre::input']]],
+  ['kmousebuttonright_90',['kMouseButtonRight',['../namespaceyapre_1_1input.html#a01a8d296130060b5f3435c72e15dfae4a4d46d681243724224d9bef91cf619059',1,'yapre::input']]],
+  ['kmousestatemove_91',['kMouseStateMove',['../namespaceyapre_1_1input.html#a8e4964b00bb6cb09bde52560f09cd631a8a881e2efb3465a77d7d22c70e4cb401',1,'yapre::input']]],
+  ['kmousestatepressed_92',['kMouseStatePressed',['../namespaceyapre_1_1input.html#a8e4964b00bb6cb09bde52560f09cd631ad299490337fafac75a58df40f8bd4b8c',1,'yapre::input']]],
+  ['kmousestatereleased_93',['kMouseStateReleased',['../namespaceyapre_1_1input.html#a8e4964b00bb6cb09bde52560f09cd631a70ac689266536fab386de21966798e5c',1,'yapre::input']]],
+  ['kmousestatewheel_94',['kMouseStateWheel',['../namespaceyapre_1_1input.html#a8e4964b00bb6cb09bde52560f09cd631a6433727321ca04d91aa65c6c42074fdf',1,'yapre::input']]],
+  ['krunfordeltams_95',['kRunForDeltaMs',['../namespaceyapre_1_1scheduler.html#aee1039165fd084291d4a0a222f7b3b1f',1,'yapre::scheduler']]],
+  ['ksysmtemnum_96',['kSysmtemNum',['../namespaceyapre.html#a940a68a43ea71f10dadeccabbf68f3e4',1,'yapre']]],
+  ['kupdatefptrs_97',['kUpdateFPtrs',['../namespaceyapre.html#a32f4b4154438b1f569cef71a21ae69e6',1,'yapre']]],
+  ['kwindowcaption_98',['kWindowCaption',['../namespaceyapre_1_1window.html#a3f22765bc4e605117b6047175385a0e8',1,'yapre::window']]],
+  ['kworkernum_99',['kWorkerNum',['../namespaceyapre_1_1scheduler.html#ad344f9ed199f841d6faef9298d65956f',1,'yapre::scheduler']]]
 ];

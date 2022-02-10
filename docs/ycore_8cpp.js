@@ -1,7 +1,5 @@
 var ycore_8cpp =
 [
-    [ "_SetupDataPath", "ycore_8cpp.html#afd20b8a10ac1f610057894804f1bda99", null ],
-    [ "_Update", "ycore_8cpp.html#ae1351a0d6e3e8b416b390ec32dfb9332", null ],
     [ "Deinit", "ycore_8cpp.html#a88dffa0709bf61c81fe9892df505567e", null ],
     [ "Init", "ycore_8cpp.html#a49c275c857d68b1ac3a5a89bddd49b6d", null ],
     [ "SetToStop", "ycore_8cpp.html#ae58008dd55dace89da6a15aa9c1503fa", null ],

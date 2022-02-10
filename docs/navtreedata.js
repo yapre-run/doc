@@ -23,6 +23,28 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "yapre", "index.html", [
+    [ "Intro", "index.html#autotoc_md1", null ],
+    [ "Examples", "index.html#autotoc_md2", null ],
+    [ "Build", "index.html#autotoc_md3", [
+      [ "windows", "index.html#autotoc_md4", null ],
+      [ "mac", "index.html#autotoc_md5", null ],
+      [ "linux", "index.html#autotoc_md6", null ],
+      [ "generate ios xcode project on mac", "index.html#autotoc_md7", [
+        [ "for devices", "index.html#autotoc_md8", null ],
+        [ "for simulators", "index.html#autotoc_md9", null ]
+      ] ],
+      [ "generate android studio project on mac", "index.html#autotoc_md10", null ],
+      [ "build emscripten version on mac/linux", "index.html#autotoc_md11", [
+        [ "build", "index.html#autotoc_md12", null ],
+        [ "test run", "index.html#autotoc_md13", null ]
+      ] ]
+    ] ],
+    [ "API", "index.html#autotoc_md14", [
+      [ "System", "index.html#autotoc_md15", null ],
+      [ "Audio", "index.html#autotoc_md16", null ],
+      [ "Video", "index.html#autotoc_md17", null ],
+      [ "Input", "index.html#autotoc_md18", null ]
+    ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -58,7 +80,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"yrenderer_8cpp.html#a1a1afb2f67f173ca1011676484744eb6"
+"yluabind_8hpp.html#a9974ebf48ca92e7256975cb156f21656"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

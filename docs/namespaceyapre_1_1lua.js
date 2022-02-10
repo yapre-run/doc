@@ -1,12 +1,5 @@
 var namespaceyapre_1_1lua =
 [
-    [ "_CFuncWrapper", "structyapre_1_1lua_1_1___c_func_wrapper.html", "structyapre_1_1lua_1_1___c_func_wrapper" ],
-    [ "_CFuncWrapper< void, Targs... >", "structyapre_1_1lua_1_1___c_func_wrapper_3_01void_00_01_targs_8_8_8_01_4.html", "structyapre_1_1lua_1_1___c_func_wrapper_3_01void_00_01_targs_8_8_8_01_4" ],
-    [ "_LuaClassMemFuncHelper", "structyapre_1_1lua_1_1___lua_class_mem_func_helper.html", null ],
-    [ "_LuaClassMemFuncHelper< R(*)(Targs...)>", "structyapre_1_1lua_1_1___lua_class_mem_func_helper_3_01_r_07_5_08_07_targs_8_8_8_08_4.html", null ],
-    [ "_LuaClassMemFuncHelper< R(T::*)(Targs...)>", "structyapre_1_1lua_1_1___lua_class_mem_func_helper_3_01_r_07_t_1_1_5_08_07_targs_8_8_8_08_4.html", null ],
-    [ "_StateCall", "structyapre_1_1lua_1_1___state_call.html", null ],
-    [ "_StateCall< args_size, void >", "structyapre_1_1lua_1_1___state_call_3_01args__size_00_01void_01_4.html", null ],
     [ "GLuaClass", "structyapre_1_1lua_1_1_g_lua_class.html", "structyapre_1_1lua_1_1_g_lua_class" ],
     [ "GStateModule", "structyapre_1_1lua_1_1_g_state_module.html", "structyapre_1_1lua_1_1_g_state_module" ],
     [ "GStateVarT", "structyapre_1_1lua_1_1_g_state_var_t.html", null ],

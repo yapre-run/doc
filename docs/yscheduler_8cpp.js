@@ -1,7 +1,5 @@
 var yscheduler_8cpp =
 [
-    [ "_UpdateFunction", "yscheduler_8cpp.html#a5587d4a08d70d1d042145cf3a726450a", null ],
-    [ "_WorkerRun", "yscheduler_8cpp.html#a469e7a7f9221f4465eb145ab6a74e743", null ],
     [ "Defer", "yscheduler_8cpp.html#a6c64390d3f93d46bf2bc8cf7d6cef69e", null ],
     [ "DeferOnMain", "yscheduler_8cpp.html#a868a633add8f753586265aaac8cffd85", null ],
     [ "DeferOnWorker", "yscheduler_8cpp.html#ad931bc8096488b88f73feea5dc829923", null ],

@@ -1,12 +1,5 @@
 var hierarchy =
 [
-    [ "yapre::lua::_CFuncWrapper< R, Targs >", "structyapre_1_1lua_1_1___c_func_wrapper.html", null ],
-    [ "yapre::lua::_CFuncWrapper< void, Targs... >", "structyapre_1_1lua_1_1___c_func_wrapper_3_01void_00_01_targs_8_8_8_01_4.html", null ],
-    [ "yapre::lua::_LuaClassMemFuncHelper< T >", "structyapre_1_1lua_1_1___lua_class_mem_func_helper.html", null ],
-    [ "yapre::lua::_LuaClassMemFuncHelper< R(*)(Targs...)>", "structyapre_1_1lua_1_1___lua_class_mem_func_helper_3_01_r_07_5_08_07_targs_8_8_8_08_4.html", null ],
-    [ "yapre::lua::_LuaClassMemFuncHelper< R(T::*)(Targs...)>", "structyapre_1_1lua_1_1___lua_class_mem_func_helper_3_01_r_07_t_1_1_5_08_07_targs_8_8_8_08_4.html", null ],
-    [ "yapre::lua::_StateCall< args_size, R >", "structyapre_1_1lua_1_1___state_call.html", null ],
-    [ "yapre::lua::_StateCall< args_size, void >", "structyapre_1_1lua_1_1___state_call_3_01args__size_00_01void_01_4.html", null ],
     [ "yapre::audio::BeepData", "structyapre_1_1audio_1_1_beep_data.html", null ],
     [ "yapre::font::CharData", "structyapre_1_1font_1_1_char_data.html", null ],
     [ "yapre::lua::GStateVarT", "structyapre_1_1lua_1_1_g_state_var_t.html", null ],
