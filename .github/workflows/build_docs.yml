@@ -18,8 +18,8 @@ jobs:
       fail-fast: true
       max-parallel: 4
     steps:
-      - name: Install Doxygen
-        run: sudo apt-get install doxygen -y
+      - name: Install
+        run: sudo apt-get install doxygen graphviz -y
       - name: Checkout repository and submodules
         uses: actions/checkout@v2
         with:
