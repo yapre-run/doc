@@ -1,14 +1,27 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>yapre: yapre/src/systems/graphics/yfont.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -19,8 +32,14 @@
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub">
+    <svg viewBox="0 0 250 250" style="position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -29,6 +48,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">yapre
    </div>
+   <div id="projectbrief">Here comes Yet Another Portable Retro Engine(yapre)!</div>
   </td>
  </tr>
  </tbody>
@@ -87,9 +107,9 @@ $(document).ready(function(){initNavTree('yfont_8h_source.html',''); initResizab
 <div class="title">yfont.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<a href="yfont_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;ytexture.h&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="ytexture_8h.html">ytexture.h</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;ft2build.h&quot;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;glm/glm.hpp&quot;</span></div>
@@ -98,32 +118,54 @@ $(document).ready(function(){initNavTree('yfont_8h_source.html',''); initResizab
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;unordered_map&gt;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include FT_FREETYPE_H</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>yapre {</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceyapre.html">yapre</a> {</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">namespace </span>font {</div>
 <div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="structyapre_1_1font_1_1_char_data.html">   14</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structyapre_1_1font_1_1_char_data.html">CharData</a> {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;  std::shared_ptr&lt;Texture&gt; texture; <span class="comment">// ID handle of the glyph texture</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  <span class="keywordtype">int</span> width;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <span class="keywordtype">int</span> height;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  <span class="keywordtype">int</span> bearing_x;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <span class="keywordtype">int</span> bearing_y;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <span class="keywordtype">int</span> advance; <span class="comment">// Horizontal offset to advance to next glyph</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structyapre_1_1font_1_1_char_data.html#a0e288772b61740a19922eb8e4e246f83">   15</a></span>&#160;  std::shared_ptr&lt;Texture&gt; <a class="code" href="structyapre_1_1font_1_1_char_data.html#a0e288772b61740a19922eb8e4e246f83">texture</a>; <span class="comment">// ID handle of the glyph texture</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="structyapre_1_1font_1_1_char_data.html#ad8846277bce83ed97bfa4a31873d608e">   16</a></span>&#160;  <span class="keywordtype">int</span> <a class="code" href="structyapre_1_1font_1_1_char_data.html#ad8846277bce83ed97bfa4a31873d608e">width</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="structyapre_1_1font_1_1_char_data.html#a9a3b167de355a3c7539529dabef5ea0d">   17</a></span>&#160;  <span class="keywordtype">int</span> <a class="code" href="structyapre_1_1font_1_1_char_data.html#a9a3b167de355a3c7539529dabef5ea0d">height</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="structyapre_1_1font_1_1_char_data.html#a862e4484e2f401a28322973b539b1311">   18</a></span>&#160;  <span class="keywordtype">int</span> <a class="code" href="structyapre_1_1font_1_1_char_data.html#a862e4484e2f401a28322973b539b1311">bearing_x</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="structyapre_1_1font_1_1_char_data.html#ac39430f2533d800aeea9a29fadb87a6d">   19</a></span>&#160;  <span class="keywordtype">int</span> <a class="code" href="structyapre_1_1font_1_1_char_data.html#ac39430f2533d800aeea9a29fadb87a6d">bearing_y</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="structyapre_1_1font_1_1_char_data.html#a546da0869485c2d9642e2a5cf0891794">   20</a></span>&#160;  <span class="keywordtype">int</span> <a class="code" href="structyapre_1_1font_1_1_char_data.html#a546da0869485c2d9642e2a5cf0891794">advance</a>; <span class="comment">// Horizontal offset to advance to next glyph</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;};</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> kFontSize = 12;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;std::shared_ptr&lt;CharData&gt; GetCharData(uint32_t c);</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="namespaceyapre_1_1font.html#ae4f72a4bebd3605b02358eb3cdc0aa73">   22</a></span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="namespaceyapre_1_1font.html#ae4f72a4bebd3605b02358eb3cdc0aa73">kFontSize</a> = 12;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;std::shared_ptr&lt;CharData&gt; <a class="code" href="namespaceyapre_1_1font.html#a7808e38e32acb4888baaba45530a6665">GetCharData</a>(uint32_t <a class="code" href="namespaceyapre_1_1audio_1_1_t_o_n_e.html#a8ad3f099e3ccd669d737e6f5d033a8e1">c</a>);</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}; <span class="comment">// namespace font</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}; <span class="comment">// namespace yapre</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="astructyapre_1_1font_1_1_char_data_html_ac39430f2533d800aeea9a29fadb87a6d"><div class="ttname"><a href="structyapre_1_1font_1_1_char_data.html#ac39430f2533d800aeea9a29fadb87a6d">yapre::font::CharData::bearing_y</a></div><div class="ttdeci">int bearing_y</div><div class="ttdef"><b>Definition:</b> yfont.h:19</div></div>
+<div class="ttc" id="astructyapre_1_1font_1_1_char_data_html_a9a3b167de355a3c7539529dabef5ea0d"><div class="ttname"><a href="structyapre_1_1font_1_1_char_data.html#a9a3b167de355a3c7539529dabef5ea0d">yapre::font::CharData::height</a></div><div class="ttdeci">int height</div><div class="ttdef"><b>Definition:</b> yfont.h:17</div></div>
+<div class="ttc" id="anamespaceyapre_1_1font_html_ae4f72a4bebd3605b02358eb3cdc0aa73"><div class="ttname"><a href="namespaceyapre_1_1font.html#ae4f72a4bebd3605b02358eb3cdc0aa73">yapre::font::kFontSize</a></div><div class="ttdeci">const int kFontSize</div><div class="ttdef"><b>Definition:</b> yfont.h:22</div></div>
+<div class="ttc" id="anamespaceyapre_html"><div class="ttname"><a href="namespaceyapre.html">yapre</a></div><div class="ttdef"><b>Definition:</b> yfont.cpp:14</div></div>
+<div class="ttc" id="anamespaceyapre_1_1font_html_a7808e38e32acb4888baaba45530a6665"><div class="ttname"><a href="namespaceyapre_1_1font.html#a7808e38e32acb4888baaba45530a6665">yapre::font::GetCharData</a></div><div class="ttdeci">std::shared_ptr&lt; CharData &gt; GetCharData(uint32_t c)</div><div class="ttdef"><b>Definition:</b> yfont.cpp:42</div></div>
+<div class="ttc" id="astructyapre_1_1font_1_1_char_data_html_a862e4484e2f401a28322973b539b1311"><div class="ttname"><a href="structyapre_1_1font_1_1_char_data.html#a862e4484e2f401a28322973b539b1311">yapre::font::CharData::bearing_x</a></div><div class="ttdeci">int bearing_x</div><div class="ttdef"><b>Definition:</b> yfont.h:18</div></div>
+<div class="ttc" id="aytexture_8h_html"><div class="ttname"><a href="ytexture_8h.html">ytexture.h</a></div></div>
+<div class="ttc" id="astructyapre_1_1font_1_1_char_data_html_a546da0869485c2d9642e2a5cf0891794"><div class="ttname"><a href="structyapre_1_1font_1_1_char_data.html#a546da0869485c2d9642e2a5cf0891794">yapre::font::CharData::advance</a></div><div class="ttdeci">int advance</div><div class="ttdef"><b>Definition:</b> yfont.h:20</div></div>
+<div class="ttc" id="astructyapre_1_1font_1_1_char_data_html_a0e288772b61740a19922eb8e4e246f83"><div class="ttname"><a href="structyapre_1_1font_1_1_char_data.html#a0e288772b61740a19922eb8e4e246f83">yapre::font::CharData::texture</a></div><div class="ttdeci">std::shared_ptr&lt; Texture &gt; texture</div><div class="ttdef"><b>Definition:</b> yfont.h:15</div></div>
 <div class="ttc" id="astructyapre_1_1font_1_1_char_data_html"><div class="ttname"><a href="structyapre_1_1font_1_1_char_data.html">yapre::font::CharData</a></div><div class="ttdef"><b>Definition:</b> yfont.h:14</div></div>
+<div class="ttc" id="astructyapre_1_1font_1_1_char_data_html_ad8846277bce83ed97bfa4a31873d608e"><div class="ttname"><a href="structyapre_1_1font_1_1_char_data.html#ad8846277bce83ed97bfa4a31873d608e">yapre::font::CharData::width</a></div><div class="ttdeci">int width</div><div class="ttdef"><b>Definition:</b> yfont.h:16</div></div>
+<div class="ttc" id="anamespaceyapre_1_1audio_1_1_t_o_n_e_html_a8ad3f099e3ccd669d737e6f5d033a8e1"><div class="ttname"><a href="namespaceyapre_1_1audio_1_1_t_o_n_e.html#a8ad3f099e3ccd669d737e6f5d033a8e1">yapre::audio::TONE::c</a></div><div class="ttdeci">const double c</div><div class="ttdef"><b>Definition:</b> yaudio.h:12</div></div>
+<!-- HTML footer for doxygen 1.9.1-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d6af9105a6f3b1eb91a0dbb367bdaffe.html">yapre</a></li><li class="navelem"><a class="el" href="dir_f01f4748a2d9cc77a0ed5cdfd6bb83f8.html">src</a></li><li class="navelem"><a class="el" href="dir_4afc0fa801309476c8c8c94253bb27b2.html">systems</a></li><li class="navelem"><a class="el" href="dir_69c64aeb9e381f2028556ee636386e91.html">graphics</a></li><li class="navelem"><b>yfont.h</b></li>
-    <li class="footer">Generated by
-    <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
+    <li class="navelem"><a class="el" href="dir_d6af9105a6f3b1eb91a0dbb367bdaffe.html">yapre</a></li><li class="navelem"><a class="el" href="dir_f01f4748a2d9cc77a0ed5cdfd6bb83f8.html">src</a></li><li class="navelem"><a class="el" href="dir_4afc0fa801309476c8c8c94253bb27b2.html">systems</a></li><li class="navelem"><a class="el" href="dir_69c64aeb9e381f2028556ee636386e91.html">graphics</a></li><li class="navelem"><a class="el" href="yfont_8h.html">yfont.h</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
 </div>
+<script type="text/javascript">
+  $(function() {
+     toggleButton = document.createElement('doxygen-awesome-dark-mode-toggle')
+     toggleButton.title = "Toggle Light/Dark Mode"
+     $(document).ready(function(){
+       document.getElementById("MSearchBox").parentNode.appendChild(toggleButton)
+     })
+     $(window).resize(function(){
+       document.getElementById("MSearchBox").parentNode.appendChild(toggleButton)
+     })
+   })
+</script>
 </body>
 </html>
