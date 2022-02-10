@@ -20,8 +20,8 @@ jobs:
     steps:
       - name: Install
         run: |
-          brew install doxygen -y
-          brew install graphviz -y
+          brew install doxygen
+          brew install graphviz
       - name: Checkout repository and submodules
         uses: actions/checkout@v2
         with:
