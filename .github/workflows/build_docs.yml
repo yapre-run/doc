@@ -35,6 +35,7 @@ jobs:
           mkdir -p ./docs
           cp -r ./build/doxygen_output/html/* ./docs
           cp -r ./build/yapre/docs ./docs/docs
+          mkdir -p ./docs/vis
           cp -r ./build/yapre/vis/png ./docs/vis/png
       - name: Commit and push
         uses: EndBug/add-and-commit@v7
