@@ -4,3 +4,6 @@
 [submodule "build/doxygen-awesome-css"]
 	path = build/doxygen-awesome-css
 	url = git@github.com:jothepro/doxygen-awesome-css.git
+[submodule "build/doxygen-bootstrapped"]
+	path = build/doxygen-bootstrapped
+	url = git@github.com:Velron/doxygen-bootstrapped.git
