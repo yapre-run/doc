@@ -1,0 +1,15 @@
+digraph "yapre/src/systems" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f01f4748a2d9cc77a0ed5cdfd6bb83f8 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="src" fontname="Helvetica", fontsize="10", URL="dir_f01f4748a2d9cc77a0ed5cdfd6bb83f8.html"]
+  subgraph clusterdir_4afc0fa801309476c8c8c94253bb27b2 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_4afc0fa801309476c8c8c94253bb27b2.html"];
+    dir_4afc0fa801309476c8c8c94253bb27b2 [shape=plaintext label="systems"];
+    dir_69c64aeb9e381f2028556ee636386e91 [shape=box label="graphics" color="black" fillcolor="white" style="filled" URL="dir_69c64aeb9e381f2028556ee636386e91.html"];
+  }
+  }
+  dir_4afc0fa801309476c8c8c94253bb27b2->dir_69c64aeb9e381f2028556ee636386e91 [headlabel="4", labeldistance=1.5 headhref="dir_000002_000003.html"];
+}

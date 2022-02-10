@@ -1,14 +1,27 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>yapre: yapre/src/systems/yinput.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -19,8 +32,14 @@
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub">
+    <svg viewBox="0 0 250 250" style="position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -29,6 +48,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">yapre
    </div>
+   <div id="projectbrief">Here comes Yet Another Portable Retro Engine(yapre)!</div>
   </td>
  </tr>
  </tbody>
@@ -87,62 +107,99 @@ $(document).ready(function(){initNavTree('yinput_8h_source.html',''); initResiza
 <div class="title">yinput.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<a href="yinput_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;functional&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span>yapre {</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span>input {</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">enum</span> KeyState : uint8_t {</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;  kKeyStatePressed = 1,</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;  kKeyStateReleased = 2,</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceyapre.html">yapre</a> {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceyapre_1_1repl.html#a61763d4dbdc5bec2775114ae2c2b2414">input</a> {</div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="namespaceyapre_1_1input.html#ae512b81cb51a658c41e3c590a4a5b812">    8</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="namespaceyapre_1_1input.html#ae512b81cb51a658c41e3c590a4a5b812">KeyState</a> : uint8_t {</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="namespaceyapre_1_1input.html#ae512b81cb51a658c41e3c590a4a5b812a15410a046c7a6b2671c28d4a0b9cfd30">    9</a></span>&#160;  <a class="code" href="namespaceyapre_1_1input.html#ae512b81cb51a658c41e3c590a4a5b812a15410a046c7a6b2671c28d4a0b9cfd30">kKeyStatePressed</a> = 1,</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="namespaceyapre_1_1input.html#ae512b81cb51a658c41e3c590a4a5b812a52e230d8579782c5fd3ac279b6b73965">   10</a></span>&#160;  <a class="code" href="namespaceyapre_1_1input.html#ae512b81cb51a658c41e3c590a4a5b812a52e230d8579782c5fd3ac279b6b73965">kKeyStateReleased</a> = 2,</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;};</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">enum</span> MouseState : uint8_t {</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  kMouseStatePressed = 1,</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;  kMouseStateReleased = 2,</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  kMouseStateWheel = 3,</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  kMouseStateMove = 4,</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="namespaceyapre_1_1input.html#a8e4964b00bb6cb09bde52560f09cd631">   13</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="namespaceyapre_1_1input.html#a8e4964b00bb6cb09bde52560f09cd631">MouseState</a> : uint8_t {</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="namespaceyapre_1_1input.html#a8e4964b00bb6cb09bde52560f09cd631ad299490337fafac75a58df40f8bd4b8c">   14</a></span>&#160;  <a class="code" href="namespaceyapre_1_1input.html#a8e4964b00bb6cb09bde52560f09cd631ad299490337fafac75a58df40f8bd4b8c">kMouseStatePressed</a> = 1,</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="namespaceyapre_1_1input.html#a8e4964b00bb6cb09bde52560f09cd631a70ac689266536fab386de21966798e5c">   15</a></span>&#160;  <a class="code" href="namespaceyapre_1_1input.html#a8e4964b00bb6cb09bde52560f09cd631a70ac689266536fab386de21966798e5c">kMouseStateReleased</a> = 2,</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="namespaceyapre_1_1input.html#a8e4964b00bb6cb09bde52560f09cd631a6433727321ca04d91aa65c6c42074fdf">   16</a></span>&#160;  <a class="code" href="namespaceyapre_1_1input.html#a8e4964b00bb6cb09bde52560f09cd631a6433727321ca04d91aa65c6c42074fdf">kMouseStateWheel</a> = 3,</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="namespaceyapre_1_1input.html#a8e4964b00bb6cb09bde52560f09cd631a8a881e2efb3465a77d7d22c70e4cb401">   17</a></span>&#160;  <a class="code" href="namespaceyapre_1_1input.html#a8e4964b00bb6cb09bde52560f09cd631a8a881e2efb3465a77d7d22c70e4cb401">kMouseStateMove</a> = 4,</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;};</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">enum</span> MouseButtonType : uint8_t {</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  kMouseButtonLeft = 1,</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  kMouseButtonRight = 2,</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  kMouseButtonMiddle = 4,</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="namespaceyapre_1_1input.html#a01a8d296130060b5f3435c72e15dfae4">   20</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="namespaceyapre_1_1input.html#a01a8d296130060b5f3435c72e15dfae4">MouseButtonType</a> : uint8_t {</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="namespaceyapre_1_1input.html#a01a8d296130060b5f3435c72e15dfae4a085910e0b748048c2b77d965d75702ff">   21</a></span>&#160;  <a class="code" href="namespaceyapre_1_1input.html#a01a8d296130060b5f3435c72e15dfae4a085910e0b748048c2b77d965d75702ff">kMouseButtonLeft</a> = 1,</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="namespaceyapre_1_1input.html#a01a8d296130060b5f3435c72e15dfae4a4d46d681243724224d9bef91cf619059">   22</a></span>&#160;  <a class="code" href="namespaceyapre_1_1input.html#a01a8d296130060b5f3435c72e15dfae4a4d46d681243724224d9bef91cf619059">kMouseButtonRight</a> = 2,</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="namespaceyapre_1_1input.html#a01a8d296130060b5f3435c72e15dfae4ad846814948d587e715e37c9d9b53ed8d">   23</a></span>&#160;  <a class="code" href="namespaceyapre_1_1input.html#a01a8d296130060b5f3435c72e15dfae4ad846814948d587e715e37c9d9b53ed8d">kMouseButtonMiddle</a> = 4,</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;};</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">using</span> KeyboardCallBackFunc = std::function&lt;void(</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    uint32_t timestamp, uint8_t state, uint8_t repeat, uint8_t keycode)&gt;;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">using</span> MouseCallBackFunc = std::function&lt;void(</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    uint32_t timestamp, uint8_t state, uint8_t button, int32_t x, int32_t y)&gt;;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">using</span> TouchCallBackFunc = std::function&lt;void(</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    uint32_t timestamp, uint8_t state, uint8_t touchId, int32_t x, int32_t y)&gt;;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">using</span> <a class="code" href="namespaceyapre_1_1input.html#a98b95dc3276b193c52253f741b96adcb">KeyboardCallBackFunc</a> = std::function&lt;void(</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="namespaceyapre_1_1input.html#a98b95dc3276b193c52253f741b96adcb">   27</a></span>&#160;    uint32_t timestamp, uint8_t state, uint8_t repeat, uint8_t keycode)&gt;;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">using</span> <a class="code" href="namespaceyapre_1_1input.html#aa7e7fe62b970d549e3cccc62e30a40ee">MouseCallBackFunc</a> = std::function&lt;void(</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="namespaceyapre_1_1input.html#aa7e7fe62b970d549e3cccc62e30a40ee">   29</a></span>&#160;    uint32_t timestamp, uint8_t state, uint8_t button, int32_t x, int32_t y)&gt;;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">using</span> <a class="code" href="namespaceyapre_1_1input.html#a9f564eaa5680bdf6f67f3983f37445c1">TouchCallBackFunc</a> = std::function&lt;void(</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="namespaceyapre_1_1input.html#a9f564eaa5680bdf6f67f3983f37445c1">   31</a></span>&#160;    uint32_t timestamp, uint8_t state, uint8_t touchId, int32_t x, int32_t y)&gt;;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keywordtype">bool</span> Init();</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keywordtype">void</span> Deinit();</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keywordtype">void</span> Update(<span class="keywordtype">int</span> delta_ms);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keywordtype">void</span> BindKeyboardInputCallback(<span class="keyword">const</span> std::string &amp;key,</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                               <span class="keyword">const</span> KeyboardCallBackFunc&amp; callback);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keywordtype">void</span> UnbindKeyboardInputCallback(<span class="keyword">const</span> std::string &amp;key);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="namespaceyapre_1_1input.html#a136cc7797af06f64a266c704123960c9">Init</a>();</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceyapre_1_1input.html#a2ae12fcd6746ec9e88daa4bf41fbe005">Deinit</a>();</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceyapre_1_1input.html#af5bdb3baf369864c401a16d142141793">Update</a>(<span class="keywordtype">int</span> delta_ms);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceyapre_1_1input.html#ad8c5af1598b8e85203aa67820b66e7c4">BindKeyboardInputCallback</a>(<span class="keyword">const</span> std::string &amp;key,</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                               <span class="keyword">const</span> <a class="code" href="namespaceyapre_1_1input.html#a98b95dc3276b193c52253f741b96adcb">KeyboardCallBackFunc</a>&amp; callback);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceyapre_1_1input.html#ac68ceeaeb5a33362efc82d7782047128">UnbindKeyboardInputCallback</a>(<span class="keyword">const</span> std::string &amp;key);</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keywordtype">void</span> BindMouseInputCallback(<span class="keyword">const</span> std::string &amp;key, <span class="keyword">const</span> MouseCallBackFunc &amp;callback);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keywordtype">void</span> UnbindMouseInputCallback(<span class="keyword">const</span> std::string &amp;key);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceyapre_1_1input.html#a6fa4ab616c80cd76f7819b37db7d199c">BindMouseInputCallback</a>(<span class="keyword">const</span> std::string &amp;key, <span class="keyword">const</span> <a class="code" href="namespaceyapre_1_1input.html#aa7e7fe62b970d549e3cccc62e30a40ee">MouseCallBackFunc</a> &amp;callback);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceyapre_1_1input.html#af980dae32b4317b46b687fd14be4ee90">UnbindMouseInputCallback</a>(<span class="keyword">const</span> std::string &amp;key);</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keywordtype">void</span> BindTouchInputCallback(<span class="keyword">const</span> std::string &amp;key, <span class="keyword">const</span> TouchCallBackFunc &amp;callback);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordtype">void</span> UnbindTouchInputCallback(<span class="keyword">const</span> std::string &amp;key);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceyapre_1_1input.html#a6ee113623bb95c76af80a55a19508eb6">BindTouchInputCallback</a>(<span class="keyword">const</span> std::string &amp;key, <span class="keyword">const</span> <a class="code" href="namespaceyapre_1_1input.html#a9f564eaa5680bdf6f67f3983f37445c1">TouchCallBackFunc</a> &amp;callback);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespaceyapre_1_1input.html#a488c5179f8230ed5097d65dee304e90f">UnbindTouchInputCallback</a>(<span class="keyword">const</span> std::string &amp;key);</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;} <span class="comment">// namespace input</span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;} <span class="comment">// namespace yapre</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="anamespaceyapre_1_1input_html_a6ee113623bb95c76af80a55a19508eb6"><div class="ttname"><a href="namespaceyapre_1_1input.html#a6ee113623bb95c76af80a55a19508eb6">yapre::input::BindTouchInputCallback</a></div><div class="ttdeci">void BindTouchInputCallback(const std::string &amp;key, const TouchCallBackFunc &amp;callback)</div><div class="ttdef"><b>Definition:</b> yinput.cpp:113</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_ac68ceeaeb5a33362efc82d7782047128"><div class="ttname"><a href="namespaceyapre_1_1input.html#ac68ceeaeb5a33362efc82d7782047128">yapre::input::UnbindKeyboardInputCallback</a></div><div class="ttdeci">void UnbindKeyboardInputCallback(const std::string &amp;key)</div><div class="ttdef"><b>Definition:</b> yinput.cpp:101</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_aa7e7fe62b970d549e3cccc62e30a40ee"><div class="ttname"><a href="namespaceyapre_1_1input.html#aa7e7fe62b970d549e3cccc62e30a40ee">yapre::input::MouseCallBackFunc</a></div><div class="ttdeci">std::function&lt; void(uint32_t timestamp, uint8_t state, uint8_t button, int32_t x, int32_t y)&gt; MouseCallBackFunc</div><div class="ttdef"><b>Definition:</b> yinput.h:29</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_a8e4964b00bb6cb09bde52560f09cd631"><div class="ttname"><a href="namespaceyapre_1_1input.html#a8e4964b00bb6cb09bde52560f09cd631">yapre::input::MouseState</a></div><div class="ttdeci">MouseState</div><div class="ttdef"><b>Definition:</b> yinput.h:13</div></div>
+<div class="ttc" id="anamespaceyapre_html"><div class="ttname"><a href="namespaceyapre.html">yapre</a></div><div class="ttdef"><b>Definition:</b> yfont.cpp:14</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_a01a8d296130060b5f3435c72e15dfae4a085910e0b748048c2b77d965d75702ff"><div class="ttname"><a href="namespaceyapre_1_1input.html#a01a8d296130060b5f3435c72e15dfae4a085910e0b748048c2b77d965d75702ff">yapre::input::kMouseButtonLeft</a></div><div class="ttdeci">@ kMouseButtonLeft</div><div class="ttdef"><b>Definition:</b> yinput.h:21</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_a6fa4ab616c80cd76f7819b37db7d199c"><div class="ttname"><a href="namespaceyapre_1_1input.html#a6fa4ab616c80cd76f7819b37db7d199c">yapre::input::BindMouseInputCallback</a></div><div class="ttdeci">void BindMouseInputCallback(const std::string &amp;key, const MouseCallBackFunc &amp;callback)</div><div class="ttdef"><b>Definition:</b> yinput.cpp:105</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_a8e4964b00bb6cb09bde52560f09cd631a70ac689266536fab386de21966798e5c"><div class="ttname"><a href="namespaceyapre_1_1input.html#a8e4964b00bb6cb09bde52560f09cd631a70ac689266536fab386de21966798e5c">yapre::input::kMouseStateReleased</a></div><div class="ttdeci">@ kMouseStateReleased</div><div class="ttdef"><b>Definition:</b> yinput.h:15</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_af980dae32b4317b46b687fd14be4ee90"><div class="ttname"><a href="namespaceyapre_1_1input.html#af980dae32b4317b46b687fd14be4ee90">yapre::input::UnbindMouseInputCallback</a></div><div class="ttdeci">void UnbindMouseInputCallback(const std::string &amp;key)</div><div class="ttdef"><b>Definition:</b> yinput.cpp:109</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_a01a8d296130060b5f3435c72e15dfae4"><div class="ttname"><a href="namespaceyapre_1_1input.html#a01a8d296130060b5f3435c72e15dfae4">yapre::input::MouseButtonType</a></div><div class="ttdeci">MouseButtonType</div><div class="ttdef"><b>Definition:</b> yinput.h:20</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_a8e4964b00bb6cb09bde52560f09cd631a8a881e2efb3465a77d7d22c70e4cb401"><div class="ttname"><a href="namespaceyapre_1_1input.html#a8e4964b00bb6cb09bde52560f09cd631a8a881e2efb3465a77d7d22c70e4cb401">yapre::input::kMouseStateMove</a></div><div class="ttdeci">@ kMouseStateMove</div><div class="ttdef"><b>Definition:</b> yinput.h:17</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_a2ae12fcd6746ec9e88daa4bf41fbe005"><div class="ttname"><a href="namespaceyapre_1_1input.html#a2ae12fcd6746ec9e88daa4bf41fbe005">yapre::input::Deinit</a></div><div class="ttdeci">void Deinit()</div><div class="ttdef"><b>Definition:</b> yinput.cpp:20</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_ae512b81cb51a658c41e3c590a4a5b812a15410a046c7a6b2671c28d4a0b9cfd30"><div class="ttname"><a href="namespaceyapre_1_1input.html#ae512b81cb51a658c41e3c590a4a5b812a15410a046c7a6b2671c28d4a0b9cfd30">yapre::input::kKeyStatePressed</a></div><div class="ttdeci">@ kKeyStatePressed</div><div class="ttdef"><b>Definition:</b> yinput.h:9</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_a488c5179f8230ed5097d65dee304e90f"><div class="ttname"><a href="namespaceyapre_1_1input.html#a488c5179f8230ed5097d65dee304e90f">yapre::input::UnbindTouchInputCallback</a></div><div class="ttdeci">void UnbindTouchInputCallback(const std::string &amp;key)</div><div class="ttdef"><b>Definition:</b> yinput.cpp:117</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_a9f564eaa5680bdf6f67f3983f37445c1"><div class="ttname"><a href="namespaceyapre_1_1input.html#a9f564eaa5680bdf6f67f3983f37445c1">yapre::input::TouchCallBackFunc</a></div><div class="ttdeci">std::function&lt; void(uint32_t timestamp, uint8_t state, uint8_t touchId, int32_t x, int32_t y)&gt; TouchCallBackFunc</div><div class="ttdef"><b>Definition:</b> yinput.h:31</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_a98b95dc3276b193c52253f741b96adcb"><div class="ttname"><a href="namespaceyapre_1_1input.html#a98b95dc3276b193c52253f741b96adcb">yapre::input::KeyboardCallBackFunc</a></div><div class="ttdeci">std::function&lt; void(uint32_t timestamp, uint8_t state, uint8_t repeat, uint8_t keycode)&gt; KeyboardCallBackFunc</div><div class="ttdef"><b>Definition:</b> yinput.h:27</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_a01a8d296130060b5f3435c72e15dfae4ad846814948d587e715e37c9d9b53ed8d"><div class="ttname"><a href="namespaceyapre_1_1input.html#a01a8d296130060b5f3435c72e15dfae4ad846814948d587e715e37c9d9b53ed8d">yapre::input::kMouseButtonMiddle</a></div><div class="ttdeci">@ kMouseButtonMiddle</div><div class="ttdef"><b>Definition:</b> yinput.h:23</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_af5bdb3baf369864c401a16d142141793"><div class="ttname"><a href="namespaceyapre_1_1input.html#af5bdb3baf369864c401a16d142141793">yapre::input::Update</a></div><div class="ttdeci">void Update(int delta_ms)</div><div class="ttdef"><b>Definition:</b> yinput.cpp:26</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_ae512b81cb51a658c41e3c590a4a5b812"><div class="ttname"><a href="namespaceyapre_1_1input.html#ae512b81cb51a658c41e3c590a4a5b812">yapre::input::KeyState</a></div><div class="ttdeci">KeyState</div><div class="ttdef"><b>Definition:</b> yinput.h:8</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_a01a8d296130060b5f3435c72e15dfae4a4d46d681243724224d9bef91cf619059"><div class="ttname"><a href="namespaceyapre_1_1input.html#a01a8d296130060b5f3435c72e15dfae4a4d46d681243724224d9bef91cf619059">yapre::input::kMouseButtonRight</a></div><div class="ttdeci">@ kMouseButtonRight</div><div class="ttdef"><b>Definition:</b> yinput.h:22</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_ae512b81cb51a658c41e3c590a4a5b812a52e230d8579782c5fd3ac279b6b73965"><div class="ttname"><a href="namespaceyapre_1_1input.html#ae512b81cb51a658c41e3c590a4a5b812a52e230d8579782c5fd3ac279b6b73965">yapre::input::kKeyStateReleased</a></div><div class="ttdeci">@ kKeyStateReleased</div><div class="ttdef"><b>Definition:</b> yinput.h:10</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_a8e4964b00bb6cb09bde52560f09cd631ad299490337fafac75a58df40f8bd4b8c"><div class="ttname"><a href="namespaceyapre_1_1input.html#a8e4964b00bb6cb09bde52560f09cd631ad299490337fafac75a58df40f8bd4b8c">yapre::input::kMouseStatePressed</a></div><div class="ttdeci">@ kMouseStatePressed</div><div class="ttdef"><b>Definition:</b> yinput.h:14</div></div>
+<div class="ttc" id="anamespaceyapre_1_1repl_html_a61763d4dbdc5bec2775114ae2c2b2414"><div class="ttname"><a href="namespaceyapre_1_1repl.html#a61763d4dbdc5bec2775114ae2c2b2414">yapre::repl::input</a></div><div class="ttdeci">std::string input</div><div class="ttdef"><b>Definition:</b> yrepl.cpp:31</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_a136cc7797af06f64a266c704123960c9"><div class="ttname"><a href="namespaceyapre_1_1input.html#a136cc7797af06f64a266c704123960c9">yapre::input::Init</a></div><div class="ttdeci">bool Init()</div><div class="ttdef"><b>Definition:</b> yinput.cpp:19</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_ad8c5af1598b8e85203aa67820b66e7c4"><div class="ttname"><a href="namespaceyapre_1_1input.html#ad8c5af1598b8e85203aa67820b66e7c4">yapre::input::BindKeyboardInputCallback</a></div><div class="ttdeci">void BindKeyboardInputCallback(const std::string &amp;key, const KeyboardCallBackFunc &amp;callback)</div><div class="ttdef"><b>Definition:</b> yinput.cpp:96</div></div>
+<div class="ttc" id="anamespaceyapre_1_1input_html_a8e4964b00bb6cb09bde52560f09cd631a6433727321ca04d91aa65c6c42074fdf"><div class="ttname"><a href="namespaceyapre_1_1input.html#a8e4964b00bb6cb09bde52560f09cd631a6433727321ca04d91aa65c6c42074fdf">yapre::input::kMouseStateWheel</a></div><div class="ttdeci">@ kMouseStateWheel</div><div class="ttdef"><b>Definition:</b> yinput.h:16</div></div>
+<!-- HTML footer for doxygen 1.9.1-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d6af9105a6f3b1eb91a0dbb367bdaffe.html">yapre</a></li><li class="navelem"><a class="el" href="dir_f01f4748a2d9cc77a0ed5cdfd6bb83f8.html">src</a></li><li class="navelem"><a class="el" href="dir_4afc0fa801309476c8c8c94253bb27b2.html">systems</a></li><li class="navelem"><b>yinput.h</b></li>
-    <li class="footer">Generated by
-    <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
+    <li class="navelem"><a class="el" href="dir_d6af9105a6f3b1eb91a0dbb367bdaffe.html">yapre</a></li><li class="navelem"><a class="el" href="dir_f01f4748a2d9cc77a0ed5cdfd6bb83f8.html">src</a></li><li class="navelem"><a class="el" href="dir_4afc0fa801309476c8c8c94253bb27b2.html">systems</a></li><li class="navelem"><a class="el" href="yinput_8h.html">yinput.h</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
 </div>
+<script type="text/javascript">
+  $(function() {
+     toggleButton = document.createElement('doxygen-awesome-dark-mode-toggle')
+     toggleButton.title = "Toggle Light/Dark Mode"
+     $(document).ready(function(){
+       document.getElementById("MSearchBox").parentNode.appendChild(toggleButton)
+     })
+     $(window).resize(function(){
+       document.getElementById("MSearchBox").parentNode.appendChild(toggleButton)
+     })
+   })
+</script>
 </body>
 </html>
