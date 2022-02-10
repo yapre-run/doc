@@ -24,5 +24,15 @@ var namespaceyapre_1_1lua =
     [ "StateVar< T, std::enable_if_t< std::is_floating_point< T >::value > >", "structyapre_1_1lua_1_1_state_var_3_01_t_00_01std_1_1enable__if__t_3_01std_1_1is__floating__point_3_01_t_01_4_1_1value_01_4_01_4.html", null ],
     [ "StateVar< T, std::enable_if_t< std::is_integral< T >::value > >", "structyapre_1_1lua_1_1_state_var_3_01_t_00_01std_1_1enable__if__t_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_01_4.html", null ],
     [ "StateVar< void >", "structyapre_1_1lua_1_1_state_var_3_01void_01_4.html", null ],
-    [ "StateVarT", "structyapre_1_1lua_1_1_state_var_t.html", null ]
+    [ "StateVarT", "structyapre_1_1lua_1_1_state_var_t.html", null ],
+    [ "Define", "namespaceyapre_1_1lua.html#a39cb362e414e2b482b1c85eee6bc5ef0", null ],
+    [ "Deinit", "namespaceyapre_1_1lua.html#a9ee1adc0149b17222e24e9bf1a54b600", null ],
+    [ "DoString", "namespaceyapre_1_1lua.html#a2b51f421290d184eb0b91aa6fc38145b", null ],
+    [ "GetGolbalFunc", "namespaceyapre_1_1lua.html#adcbea5b9102173dba4479366bfe497d6", null ],
+    [ "GetMainLuaState", "namespaceyapre_1_1lua.html#a9974ebf48ca92e7256975cb156f21656", null ],
+    [ "GGetGolbalFunc", "namespaceyapre_1_1lua.html#a68c9c758569168f76021306a5d7e0973", null ],
+    [ "Init", "namespaceyapre_1_1lua.html#a113bbe4dc47d997a38282e52c6e01a3f", null ],
+    [ "Update", "namespaceyapre_1_1lua.html#ae0418b8431dd71e9bbc009805cf81ad3", null ],
+    [ "kDefaultLuaEntryFilePath", "namespaceyapre_1_1lua.html#a87d7c8dcf0f40d21c4ed642bf851f9f6", null ],
+    [ "mainLuaState", "namespaceyapre_1_1lua.html#a2b073ed5f8c2cbd610e09169965061d7", null ]
 ];

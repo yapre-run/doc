@@ -1,12 +1,12 @@
 <map id="yapre/src/systems/graphics/yfont.h" name="yapre/src/systems/graphics/yfont.h">
-<area shape="rect" id="node1" title=" " alt="" coords="307,5,507,47"/>
-<area shape="rect" id="node2" href="$ytexture_8h.html" title=" " alt="" coords="134,95,223,121"/>
-<area shape="rect" id="node7" title=" " alt="" coords="248,95,331,121"/>
-<area shape="rect" id="node8" title=" " alt="" coords="355,95,459,121"/>
-<area shape="rect" id="node9" title=" " alt="" coords="483,95,543,121"/>
-<area shape="rect" id="node10" title=" " alt="" coords="567,95,691,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,169,83,196"/>
-<area shape="rect" id="node4" title=" " alt="" coords="107,169,165,196"/>
-<area shape="rect" id="node5" title=" " alt="" coords="190,169,253,196"/>
-<area shape="rect" id="node6" title=" " alt="" coords="277,169,371,196"/>
+<area shape="rect" id="node1" title=" " alt="" coords="285,5,467,47"/>
+<area shape="rect" id="node2" href="$ytexture_8h.html" title=" " alt="" coords="127,95,207,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="231,95,305,121"/>
+<area shape="rect" id="node8" title=" " alt="" coords="329,95,423,121"/>
+<area shape="rect" id="node9" title=" " alt="" coords="447,95,502,121"/>
+<area shape="rect" id="node10" title=" " alt="" coords="526,95,637,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,169,75,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="99,169,154,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="179,169,237,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="261,169,347,196"/>
 </map>

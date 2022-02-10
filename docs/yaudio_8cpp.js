@@ -1,6 +1,6 @@
 var yaudio_8cpp =
 [
-    [ "BeepData", "structyapre_1_1audio_1_1_beep_data.html", "structyapre_1_1audio_1_1_beep_data" ],
+    [ "yapre::audio::BeepData", "structyapre_1_1audio_1_1_beep_data.html", "structyapre_1_1audio_1_1_beep_data" ],
     [ "AudioCallback", "yaudio_8cpp.html#a1617d4cc97b7f9655d9b769b3f52dc8c", null ],
     [ "Beep", "yaudio_8cpp.html#a083bb006d98a5f0d8ccb6f66982ec2cc", null ],
     [ "Deinit", "yaudio_8cpp.html#a00a0b1d07b03004f5897f04854bd5adc", null ],

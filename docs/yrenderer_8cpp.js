@@ -14,7 +14,7 @@ var yrenderer_8cpp =
     [ "DrawText", "yrenderer_8cpp.html#a577f7f276beb33d132713b66229c00b7", null ],
     [ "DrawText", "yrenderer_8cpp.html#a3b85a9db9856379e1f0c0013b7bcaf0c", null ],
     [ "GetPreferRenderSize", "yrenderer_8cpp.html#a6e8c9b284a682e7e883f9172f6ac297a", null ],
-    [ "GetRealRenderSize", "yrenderer_8cpp.html#a6af83e0bad42d31f01579e4b620e4460", null ],
+    [ "GetRealRenderSize", "yrenderer_8cpp.html#a313d7bd8282a6e2502e0dc59d9d4a72e", null ],
     [ "Init", "yrenderer_8cpp.html#afd832ffce54c3a8c796feccdce2db769", null ],
     [ "PrintGlInfo", "yrenderer_8cpp.html#ad78965528efdf63192c14e19ae065608", null ],
     [ "RefreshViewport", "yrenderer_8cpp.html#a934cee6fc6cc9dd8d076f9ebd2eeefc3", null ],
